@@ -44,21 +44,21 @@ module.exports = {
   service1: {
     api: '/api/reviews',
     url: 'http://localhost:3001',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
   service2: {
-    api: 'FIX_ME',
+    api: '/api/images:itemId',
     url: 'http://localhost:3002',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
   service3: {
-    api: 'FIX_ME',
+    api: '/data',
     url: 'http://localhost:3003',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
   service4: {
     api: '/add_to_bag',
     url: 'http://localhost:3004',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
 };
