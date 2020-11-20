@@ -57,7 +57,7 @@ module.exports = {
     bundle: 'app.js',
   },
   service4: {
-    api: 'FIX_ME',
+    api: '/add_to_bag',
     url: 'http://localhost:3004',
     bundle: 'app.js',
   },
