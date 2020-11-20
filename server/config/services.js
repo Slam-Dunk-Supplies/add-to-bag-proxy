@@ -42,7 +42,7 @@
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
+    api: '/api/reviews',
     url: 'http://localhost:3001',
     bundle: 'app.js',
   },
