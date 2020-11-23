@@ -42,23 +42,23 @@
 
 module.exports = {
   service1: {
-    api: '/api/reviews',
-    url: 'http://localhost:3001',
+    api: '/reviews/listing_id',
+    url: 'http://ec2-18-216-4-88.us-east-2.compute.amazonaws.com:3001/2/',
     bundle: 'bundle.js',
   },
   service2: {
-    api: '/api/images:itemId',
-    url: 'http://localhost:3002',
+    api: '/images/:listing_id',
+    url: 'https://34.209.44.146:3002',
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/data',
-    url: 'http://localhost:3003',
+    api: '/data/:listing_id',
+    url: 'http://54.200.202.68:3003/',
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/add_to_bag',
-    url: 'http://localhost:3004',
+    api: '/add_to_bag/:listing_id',
+    url: 'http://52.12.62.168:3004/',
     bundle: 'bundle.js',
   },
 };
