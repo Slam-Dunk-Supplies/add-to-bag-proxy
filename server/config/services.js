@@ -47,18 +47,18 @@ module.exports = {
     bundle: 'bundle.js',
   },
   service2: {
-    api: '/images/:listing_id',
+    api: '/images',
     url: 'https://34.209.44.146:3002',
     bundle: 'bundle.js',
   },
   service3: {
-    api: '/data/:listing_id',
+    api: '/data',
     url: 'http://54.200.202.68:3003/',
     bundle: 'bundle.js',
   },
   service4: {
-    api: '/add_to_bag/:listing_id',
-    url: 'http://52.12.62.168:3004/',
+    api: '/checkout',
+    url: 'http://52.12.62.168:3004',
     bundle: 'bundle.js',
   },
 };
