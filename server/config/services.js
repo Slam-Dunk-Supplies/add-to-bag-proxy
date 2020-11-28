@@ -58,7 +58,7 @@ module.exports = {
   },
   service4: {
     api: '/checkout',
-    url: 'http://52.12.62.168:3004',
+    url: 'http://localhost:3004',
     bundle: 'bundle.js',
   },
 };

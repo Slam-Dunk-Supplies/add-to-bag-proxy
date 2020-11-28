@@ -1,0 +1,40 @@
+.new-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.new-mini-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+#service1 {
+  flex: 2;
+  background-color: lightblue;
+}
+
+#service2 {
+  flex: 2;
+  background-color: lightgray;
+}
+
+#service3 {
+  flex: 2;
+  background-color: lightgreen;
+}
+
+#service4 {
+  max-width: 25%;
+  max-height: 100%;
+  float: right;
+}
+
+.banners {
+  margin: 5px 0 0 0;
+}
