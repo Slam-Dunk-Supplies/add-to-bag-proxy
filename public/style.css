@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.middle-container {
+.content {
   display: flex;
   flex-direction: row;
 }
@@ -12,29 +12,46 @@
   display: flex;
   flex-direction: column;
   flex: 2;
+  align-items: center;
 }
 
 #service1 {
   flex: 2;
-  background-color: lightblue;
+  padding-top: 30px;
 }
 
 #service2 {
-  flex: 2;
-  background-color: lightgray;
+  width: 100%;
 }
 
 #service3 {
   flex: 2;
-  background-color: lightgreen;
+  padding: 30px 0 30px 0;
+  border-bottom: 1px solid #ebedee;
+
+}
+
+.sidebar {
+  display: block;
+  z-index: 50;
+  flex: 0 0 320px;
+  max-width: 25%;
+  backface-visibility: hidden;
 }
 
 #service4 {
-  max-width: 25%;
-  max-height: 100%;
-  float: right;
+  max-width: fit-content;
+  position: sticky;
+  right: 0px;
+  top: 0px;
+  min-height: 100vh;
+  border-left: 1px solid #ebedee;
 }
 
-.banners {
+.bottomBanner {
   margin: 5px 0 0 0;
+}
+
+.topBanner {
+  margin: 0 0 5px 0;
 }
